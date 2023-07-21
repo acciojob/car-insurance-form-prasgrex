@@ -7,7 +7,52 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<h1>CAR INSURANCE FORM</h1>
+	<form method="post">
+		
+		<section>
+		<label for="name">Name</label>
+		<input id="name" type="text" placeholder="enter your name" required/>
+		</section>
+		
+		<section>
+		<label for="email">Email</label>
+		<input id="email" type="email" placeholder="enter your emailID" required/>
+		</section>
+		
+		<section>
+		<span>Gender</span>
+		<label for="male"><input id="male" type="radio" name="gender" value="male" required/>Male</label>
+        <label for="female"><input id="female" type="radio" name="gender" value="female" required/>Female</label>			
+		</section>	
+		
+		<section>
+		<label for="cars"></label>
+		<select id="cars" >
+			<option>BMW</option>
+			<option>Audi</option>
+			<option>Mercedez</option>
+		</select>
+		</section>
+		
+		<section>
+		<label for="carage">Car Age</label>
+		<input id="carage" type="text" placeholder="enter your carage" required/>
+		</section>	
+
+		<section>
+		<label for="dop">Date of Purchase(dop)</label>
+		<input id="dop" type="date" required/>
+		</section>
+
+		<section>
+		<label for="password">Password</label>
+		<input id="password" type="password" placeholder="enter your password" required/>
+		</section>
+
+		<button type="submit" value="submit">Submit</button>
+    		
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
